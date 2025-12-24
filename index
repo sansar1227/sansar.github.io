@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Happy Birthday, My Love 🎂</h1>
+    <p>You make my world brighter every single day</p>
+    <button onclick="scrollToSection()">Open Your Surprise ✨</button>
+  </section>
+
+  <!-- Memories Section -->
+  <section class="memories" id="memories">
+    <h2>Our Memories 💕</h2>
+    <div class="gallery">
+      <img src="images/photo1.jpg">
+      <img src="images/photo2.jpg">
+    </div>
+  </section>
+
+  <!-- Letter Section -->
+  <section class="letter">
+    <h2>A Letter for You 💌</h2>
+    <p>
+      Distance has never weakened us.  
+      Every day with you feels meaningful,  
+      and I’m proud of what we are becoming together.
+    </p>
+  </section>
+
+  <!-- Countdown / Footer -->
+  <section class="footer">
+    <h2>Forever & Always ❤️</h2>
+    <p id="date"></p>
+  </section>
+
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
